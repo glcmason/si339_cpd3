@@ -52,11 +52,11 @@ def gen_athlete_page(data, outfile):
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
        <!-- Get your own FontAwesome ID -->
-       <script src="https://kit.fontawesome.com/YOUR_ID.js" crossorigin="anonymous"></script>
+       <script src="https://kit.fontawesome.com/48d9c551f8.js" crossorigin="anonymous"></script>
 
 
-      <link rel = "stylesheet" href = "css/reset.css">
-      <link rel = "stylesheet" href = "css/style.css">
+      <link rel = "stylesheet" href = "/xc_data-main/css/reset.css">
+      <link rel = "stylesheet" href = "/xc_data-main/css/style.css">
       
 
       <title>{data["name"]}</title>
@@ -66,8 +66,8 @@ def gen_athlete_page(data, outfile):
    <nav>
      <ul>
         <li><a href="/xc_data-main/index.html">Home Page</a></li>
-        <li><a href="mens.html">Men's Team</a></li>
-        <li><a href="womens.html">Women's Team</a></li>
+        <li><a href="/xc_data-main/mens.html">Men's Team</a></li>
+        <li><a href="/xc_data-main/womens.html">Women's Team</a></li>
      </ul>
    </nav>
    <header>
@@ -151,8 +151,7 @@ def gen_athlete_page(data, outfile):
                      Ann Arbor, MI 48103<br><br>
 
                      <a href = "https://sites.google.com/aaps.k12.mi.us/skylinecrosscountry2021/home">XC Skyline Page</a><br>
-                    Follow us on Instagram <a href = "https://www.instagram.com/a2skylinexc/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i>  </a> 
-
+                    
 
                      </footer>
                </body>
@@ -173,18 +172,19 @@ def gen_womens_team_page(folder_path, outfile):
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script src="https://kit.fontawesome.com/48d9c551f8.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Women's Team - Skyline Cross Country</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/xc_data-main/css/reset.css">
+    <link rel="stylesheet" href="/xc_data-main/css/style.css">
 </head>
 <body>
 <a href="#main">Skip to Main Content</a>
 <nav>
     <ul>
         <li><a href="/xc_data-main/index.html">Home Page</a></li>
-        <li><a href="mens.html">Men's Team</a></li>
-        <li><a href="womens.html">Women's Team</a></li>
+        <li><a href="/xc_data-main/mens.html">Men's Team</a></li>
+        <li><a href="/xc_data-main/womens.html">Women's Team</a></li>
     </ul>
 </nav>
 <header>
@@ -214,7 +214,6 @@ def gen_womens_team_page(folder_path, outfile):
         Ann Arbor, MI 48103
     </address><br>
     <a href="https://sites.google.com/aaps.k12.mi.us/skylinecrosscountry2021/home">XC Skyline Page</a><br>
-    Follow us on Instagram <a href="https://www.instagram.com/a2skylinexc/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
 </footer>
 </body>
 </html>
@@ -237,6 +236,7 @@ def gen_mens_team_page(folder_path, outfile):
     <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/48d9c551f8.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Men's Team - Skyline Cross Country</title>
         <link rel="stylesheet" href="css/reset.css">
@@ -247,8 +247,8 @@ def gen_mens_team_page(folder_path, outfile):
     <nav>
         <ul>
             <li><a href="/xc_data-main/index.html">Home Page</a></li>
-            <li><a href="mens.html">Men's Team</a></li>
-            <li><a href="womens.html">Women's Team</a></li>
+            <li><a href="/xc_data-main/mens.html">Men's Team</a></li>
+            <li><a href="/xc_data-main/womens.html">Women's Team</a></li>
         </ul>
     </nav>
     <header>
@@ -278,7 +278,7 @@ def gen_mens_team_page(folder_path, outfile):
             Ann Arbor, MI 48103
         </address><br>
         <a href="https://sites.google.com/aaps.k12.mi.us/skylinecrosscountry2021/home">XC Skyline Page</a><br>
-        Follow us on Instagram <a href="https://www.instagram.com/a2skylinexc/"><i class="fa-brands fa-instagram" aria-label="Instagram"></i></a>
+       
     </footer>
     </body>
     </html>
